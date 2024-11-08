@@ -1,0 +1,115 @@
+.pageHeader {
+  background: #5f9d39 none repeat scroll 0 0;
+  width: 100%;
+  color: #fff;
+}
+
+.textbl {
+  color: rgba(255, 255, 255, .9);
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+  width: 100%;
+}
+
+.textbl {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.textbl .rightbanner img {
+  max-width: 100%;
+}
+
+.textbl .leftcontent {
+  float: left;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 60%;
+}
+.textbl h1 {
+  color: rgba(255, 255, 255, .9);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 24px;
+  line-height: 1.1;
+}
+
+.book-bnr-btn {
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+.textbl a.book-bnr-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.services-btn {
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 25px;
+  margin-top: 15px;
+  border-radius: 25px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+
+.textbl a.services-btn {
+  color: #6cab39;
+}
+
+.textbl a.book-bnr-btn:hover {
+  background: #fff;
+  color: #6cab39;
+}
+.textbl a.services-btn:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* breadcrumb */
+.breadCrumbRow {
+  padding: 18px 0 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.breadCrumbRow ul{
+  padding: 0;
+  margin: 0;
+}
+
+.breadCrumbRow ul li{
+  list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    color: #296fa3;
+    font-size: 13px;
+    position: relative;
+}
+.breadCrumbRow ul li a {
+  color: #222;
+  text-decoration: none;
+}
+.breadCrumbRow ul li a::after {
+  content: "|";
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  margin: -1px 6px 0;
+  color: #296fa3;
+}
+/* breadcrumb */
